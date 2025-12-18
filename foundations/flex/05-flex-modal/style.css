@@ -18,8 +18,26 @@ body {
 .modal {
   background: white;
   width: 480px;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vertical-stuff {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
 }
 
 .icon {
@@ -33,6 +51,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0px 10px 0px 0px;
+  flex-shrink: 0;
+}
+
+.header {
+  font-size: larger;
+  font-weight: bold;
 }
 
 .close-button {
